@@ -378,7 +378,13 @@ export default function Home() {
             <a href="https://newhedge.io" className="text-blue-400 hover:underline">Newhedge API</a>
             {' • '}
             <a href="https://github.com/Samdevrel/on-chain-analytics" className="text-gray-400 hover:underline">Source Code</a>
-          </p>
+          <button
+            onClick={() => window.location.href = '/docs/overview'}
+            className="w-full py-4 bg-purple-500 text-white font-bold border-4 border-purple-400 hover:bg-purple-400 mb-4"
+          >
+            {buttonText}
+          </button>
+                    </p>
         </footer>
       </div>
     </main>
